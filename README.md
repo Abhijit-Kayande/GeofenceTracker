@@ -12,4 +12,6 @@
 
 ![Geofence](https://user-images.githubusercontent.com/4660326/115708362-827edb00-a38d-11eb-89d9-16883c780ee7.jpg)
 
-##### LocationManager - 
+The purpose of this design is that each class should have single responsibility and different functionalities should be separated effectively. This will be easier in maintaining and expanding the Product.
+**LocationManager -** The Core Location implementation is in this class. This class Requests the location permission from user and track given circular regions and also notifies about them.
+
