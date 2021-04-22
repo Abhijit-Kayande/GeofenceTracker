@@ -22,3 +22,4 @@ The purpose of this design is that each class should have single responsibility 
 **GeofenceTracker -** This class handles the interaction between Geofence Manager and Location Manager. It hides all the complexity and provides a simple interface.
 
 **ViewController -** The ViewController uses Geofence Tracker to add new circular regions. It handles the UI using NSFetchedResultsController, provided by Geofence Tracker, and update the UI on real-time using NSFetchedResultsControllerDelegate methods.
+
