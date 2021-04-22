@@ -7,3 +7,9 @@
 - - latitude: 48.8584, Longitude: 2.2945 for "Eiffel Tower"
 - - latitude: 25.1972, Longitude: 55.2744 for "Burj Khalifa"
 - After entering respective location, see the status on the perticular cell in the simulator (It will show Entered/Exited depending on the state)
+
+## Design Flow
+
+![Geofence](https://user-images.githubusercontent.com/4660326/115708362-827edb00-a38d-11eb-89d9-16883c780ee7.jpg)
+
+1. 
