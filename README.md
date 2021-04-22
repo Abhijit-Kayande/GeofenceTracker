@@ -15,5 +15,10 @@
 The purpose of this design is that each class should have single responsibility and different functionalities should be separated effectively. This will be easier in maintaining and expanding the Product.
 
 
-**LocationManager -** The Core Location implementation is in this class. This class Requests the location permission from user and track given circular regions and also notifies about them.
+**LocationManager -** The Core Location implementation is in this class. This class Requests the location permission from the user and track given circular regions and also notifies about them.
 
+**GeofenceManager -** This class manages the Core Data stack and performs Save and Update operations on Geofence model.
+
+**GeofenceTracker -** This class handles the interaction between Geofence Manager and Location Manager. It hides all the complexity and provides a simple interface.
+
+**ViewController -** The ViewController uses Geofence Tracker to add new circular regions. It handles the UI using NSFetchedResultsController, provided by Geofence Tracker, and update the UI on real-time using NSFetchedResultsControllerDelegate methods.
